@@ -11,12 +11,20 @@ public class FileWriter {
    * Constructor that instantiates the class.
    *
    * @param filename
+   * @param dirPathFromAPP - Optional path to the files directory.
    */
-  public FileWriter (String filename) {
-    // Define the path to the file dynamically.
-    Path textFilesDir = Paths.get(System.getProperty("user.dir"), "src", "main", "textFiles");
-    Path absolutePath = textFilesDir.resolve(filename).toAbsolutePath().normalize();
+  public FileWriter (String filename, String dirPathFromAPP) {
+    Path textFilesDir;
 
+    // Define the path to the file dynamically.
+    if (dirPathFromAPP != null && !dirPathFromAPP.isEmpty()) {
+      textFilesDir = Paths.get(System.getProperty("user.dir"), dirPathFromAPP);
+    } else {
+      textFilesDir = Paths.get(System.getProperty("user.dir"), "src", "main", "textFiles");
+    }
+
+    Path absolutePath = textFilesDir.resolve(filename).toAbsolutePath().normalize();
+      
     this.file = absolutePath.toFile();
 
     // Ensure the directory exists

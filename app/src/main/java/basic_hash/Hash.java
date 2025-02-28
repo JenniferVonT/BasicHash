@@ -5,18 +5,16 @@ import java.io.IOException;
 public class Hash {
     private FileWriter hashedFile;
 
-    public Hash () {
-      hashedFile = new FileWriter("hash.txt");
-    }
+    public Hash () {}
 
     /**
-     * Hash a string and save to the hashedFile.
+     * Hash a string.
      * 
-     * @return True = completed || False = Something went wrong.
+     * @return The fixed hashed string.
      */
-    public boolean hashFile (String textToHash) throws IOException {
+    public String hashString (String textToHash) {
         // TO-DO: Implement a hashing algorithm.
 
-        return true;
+        return "";
     }
 }
