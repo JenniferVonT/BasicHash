@@ -4,13 +4,12 @@
 package basic_hash;
 
 import java.util.Scanner;
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.*;
 
 public class App {
     private UI ui;
-    private Settings settings;
+    private FileWriter file;
+    private Hasher hasher;
   
     /**
      * Instantiate the App class.
@@ -18,44 +17,39 @@ public class App {
      * @param scannerInput - A scanner for user input.
      */
     App (Scanner scannerInput) {
-      this.settings = new Settings();
-      this.ui = new UI(scannerInput, this.settings);
+      this.hasher = new Hasher();
+      this.ui = new UI(scannerInput);
     }
   
     /**
      * Starts the application "menu" where the user can input data.
      */
-    private void startMenu () {
-      ui.selectFile();
+    private void selectFileMenu () {
+      try {
+        file = new FileWriter(ui.selectFile());
+      } catch (IllegalArgumentException error) {
+        ui.showError(error.getMessage());
+        selectFileMenu();
+      }
     }
   
     /**
      * Process the hashing.
      */
     private void processFile () {
-        String plainText = convertFileToString();
-        String successMessage = "";
-
-        // TO-DO: call hash.
-  
-        ui.clearConsole();
-        ui.showMessage(successMessage);
-    }
-  
-    /**
-     * Converts the file content to a string.
-     *
-     * @return - The file content as a string.
-     */
-    private String convertFileToString () {
       try {
-        StringBuilder content = new StringBuilder();
-        File file = settings.getFile();
-        content.append(new String(Files.readAllBytes(file.toPath())));
-  
-        return content.toString();
+        String plainText = file.read();
+        String hashedString = hasher.hash(plainText);
+
+        FileWriter hashFile = new FileWriter("hash.txt");
+        
+        hashFile.write(hashedString);
+    
+        ui.clearConsole();
+        ui.showMessage("The file was hashed and stored in hash.txt in the textFiles folder");
       } catch (IOException error) {
-        return null;
+        ui.clearConsole();
+        ui.showError(error.getMessage());
       }
     }
   
@@ -80,7 +74,7 @@ public class App {
   
       // Loop the application to avoid unwanted application exits until the user wants to exit.
       do {
-        app.startMenu();
+        app.selectFileMenu();
         app.processFile();
       } while (!app.endMessage());
   

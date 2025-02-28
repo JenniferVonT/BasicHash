@@ -4,26 +4,23 @@ import java.util.Scanner;
 
 public class UI {
   private Scanner input;
-  private Settings settings;
 
-  protected UI(Scanner input, Settings settings) {
+  protected UI(Scanner input) {
     this.input = input;
-    this.settings = settings;
   }
 
   /**
    * Get user input to select what file to process and set it in settings.
    */
-  public void selectFile () {
+  public String selectFile () {
     try {
       System.out.println("Input the name of the file you want to process (should be located in the textFiles folder): ");
-      String file = this.input.nextLine();
+      String file = input.nextLine();
 
-      settings.setFile(file);
+      return file;
     } catch (IllegalArgumentException error) {
       clearConsole();
-      System.out.println(error.getMessage());
-      selectFile();
+      return error.getMessage();
     }
   }
 
@@ -33,9 +30,8 @@ public class UI {
    * @return - Yes (true) || No (false).
    */
   public boolean endSession () {
-    System.out.println("\n\n");
-    System.out.println("Would you want to exit (X) or run again (R)");
-    String alt = this.input.nextLine().toUpperCase();
+    System.out.println("\n\nWould you want to exit (X) or run again (R)");
+    String alt = input.nextLine().toUpperCase();
 
     switch (alt) {
       case "X":

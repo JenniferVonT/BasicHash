@@ -2,31 +2,33 @@ package basic_hash;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/* 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+*/
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class hashTest {
-  private Hash SUT;
+  private Hasher SUT;
 
   /**
    * Setup the system under test before each test.
    */
   @BeforeEach
   void setUp() {
-    SUT = new Hash();
+    SUT = new Hasher();
   }
 
   @Test void testHash () {
     String testString = "testing testing";
 
-    String hashedString = SUT.hashString(testString);
+    String hashedString = SUT.hash(testString);
 
     // Test that the testring is not the same string coming out.
     assertFalse(hashedString.equals(testString));
@@ -35,8 +37,8 @@ public class hashTest {
   @Test void testHashMatchTrue () {
     String testString = "testing testing";
 
-    String hashedString = SUT.hashString(testString);
-    String hashedString2 = SUT.hashString(testString);
+    String hashedString = SUT.hash(testString);
+    String hashedString2 = SUT.hash(testString);
 
     // Test that the hash is the same when the same string is processed.
     assertTrue(hashedString.equals(hashedString2));
@@ -46,8 +48,8 @@ public class hashTest {
     String testString = "testing testing";
     String testString2 = "Testing Testing 2";
 
-    String hashedString = SUT.hashString(testString);
-    String hashedString2 = SUT.hashString(testString2);
+    String hashedString = SUT.hash(testString);
+    String hashedString2 = SUT.hash(testString2);
 
     // Test that the hash is NOT the same when different strings are processed.
     assertFalse(hashedString.equals(hashedString2));
@@ -63,7 +65,7 @@ public class hashTest {
         // Hash each line and store the results in a map to check for collisions
         Map<String, Integer> hashDistribution = new HashMap<>();
         for (String line : lines) {
-            String hash = SUT.hashFile(line);
+            String hash = SUT.hash(line);
             hashDistribution.put(hash, hashDistribution.getOrDefault(hash, 0) + 1);
         }
 
@@ -94,13 +96,13 @@ public class hashTest {
         String originalString = lines.get(i);
 
         // Hash the original string
-        String originalHash = SUT.hashFile(originalString);
+        String originalHash = SUT.hash(originalString);
 
         // Get the next line in the file for comparison
         String nextString = lines.get(i + 1);
 
         // Hash the next string
-        String nextHash = SUT.hashFile(nextString);
+        String nextHash = SUT.hash(nextString);
 
         // Count the number of bit changes between the two hashes
         int bitChanges = countBitChanges(originalHash, nextHash);

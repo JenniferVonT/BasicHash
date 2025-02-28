@@ -29,6 +29,11 @@ class UITest {
     // Backup System.in to restore later
     originalIn = System.in;
 
+    // Provide mock input for any methods that may need it
+    InputStream mockIn = new ByteArrayInputStream("".getBytes()); // No actual input is needed
+    System.setIn(mockIn);
+
+    // Initialize the system under test (UI)
     SUT = new UI(new Scanner(System.in, "UTF-8"), new Settings());
   }
 
