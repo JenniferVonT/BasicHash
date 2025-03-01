@@ -34,7 +34,7 @@ class UITest {
     System.setIn(mockIn);
 
     // Initialize the system under test (UI)
-    SUT = new UI(new Scanner(System.in, "UTF-8"), new Settings());
+    SUT = new UI(new Scanner(System.in, "UTF-8"));
   }
 
   /**

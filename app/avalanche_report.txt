@@ -1,0 +1,5001 @@
+Test Report: Hash Avalanche Test
+====================================
+Avalanche effect test failed for:
+Original String: ABCDEFG
+Next String: ABCDEFg
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ABCDEFg
+Next String: ABKDEFg
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: ABKDEFg
+Next String: EBKDEFg
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: EBKDEFg
+Next String: EBKDEfg
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: EBKDEfg
+Next String: EBkDEfg
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: EBkDEfg
+Next String: EJkDEfg
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: EJkDEfg
+Next String: EJkFEfg
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: EJkFEfg
+Next String: EJkBEfg
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: EJkBEfg
+Next String: EJkBefg
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: EJkBefg
+Next String: EJiBefg
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: EJiBefg
+Next String: EKiBefg
+Expected around 32 bit changes, but got 8.
+
+Avalanche effect test failed for:
+Original String: EKiBefg
+Next String: EKiCefg
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: EKiCefg
+Next String: EKiCgfg
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: EKiCgfg
+Next String: EKiCgvg
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: EKiCgvg
+Next String: EKiCgwg
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: EKiCgwg
+Next String: eKiCgwg
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: eKiCgwg
+Next String: eKICgwg
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: eKICgwg
+Next String: EKICgwg
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: EKICgwg
+Next String: GKICgwg
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: GKICgwg
+Next String: GKACgwg
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: GKACgwg
+Next String: GKaCgwg
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: GKaCgwg
+Next String: GKaCgwG
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: GKaCgwG
+Next String: FKaCgwG
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: FKaCgwG
+Next String: VKaCgwG
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: VKaCgwG
+Next String: VKACgwG
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: VKACgwG
+Next String: VKCCgwG
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: VKCCgwG
+Next String: VKCCewG
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: VKCCewG
+Next String: VKCCewO
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: VKCCewO
+Next String: VKCCegO
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: VKCCegO
+Next String: WKCCegO
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: WKCCegO
+Next String: UKCCegO
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: UKCCegO
+Next String: uKCCegO
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: uKCCegO
+Next String: tKCCegO
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: tKCCegO
+Next String: tKBCegO
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: tKBCegO
+Next String: vKBCegO
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: vKBCegO
+Next String: vKBCdgO
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: vKBCdgO
+Next String: VKBCdgO
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: VKBCdgO
+Next String: VJBCdgO
+Expected around 32 bit changes, but got 8.
+
+Avalanche effect test failed for:
+Original String: VJBCdgO
+Next String: VJBClgO
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: VJBClgO
+Next String: VJBCloO
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: VJBCloO
+Next String: RJBCloO
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: RJBCloO
+Next String: RJBCloK
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: RJBCloK
+Next String: VJBCloK
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: VJBCloK
+Next String: VBBCloK
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: VBBCloK
+Next String: VRBCloK
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: VRBCloK
+Next String: VrBCloK
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: VrBCloK
+Next String: VrbCloK
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: VrbCloK
+Next String: VbbCloK
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: VbbCloK
+Next String: VbbChoK
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: VbbChoK
+Next String: VbbchoK
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: VbbchoK
+Next String: VbcchoK
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: VbcchoK
+Next String: VbccloK
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: VbccloK
+Next String: VbcchoK
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: VbcchoK
+Next String: VbgchoK
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: VbgchoK
+Next String: VfgchoK
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: VfgchoK
+Next String: VfgchoJ
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: VfgchoJ
+Next String: VdgchoJ
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: VdgchoJ
+Next String: VdgkhoJ
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: VdgkhoJ
+Next String: VdgKhoJ
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: VdgKhoJ
+Next String: VdgKhoK
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: VdgKhoK
+Next String: VdgChoK
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: VdgChoK
+Next String: VdgCioK
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: VdgCioK
+Next String: VdgCioC
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: VdgCioC
+Next String: VdgBioC
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: VdgBioC
+Next String: VdgBioG
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: VdgBioG
+Next String: VdgBinG
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: VdgBinG
+Next String: VdgBknG
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: VdgBknG
+Next String: VdGBknG
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: VdGBknG
+Next String: VdFBknG
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: VdFBknG
+Next String: VdFBknW
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: VdFBknW
+Next String: VdFBKnW
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: VdFBKnW
+Next String: RdFBKnW
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: RdFBKnW
+Next String: RdFRKnW
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: RdFRKnW
+Next String: RdNRKnW
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: RdNRKnW
+Next String: RdFRKnW
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: RdFRKnW
+Next String: RdFRknW
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: RdFRknW
+Next String: RdNRknW
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: RdNRknW
+Next String: RdNRknw
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: RdNRknw
+Next String: RdFRknw
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: RdFRknw
+Next String: RdFRkow
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: RdFRkow
+Next String: RdFRkOw
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: RdFRkOw
+Next String: RdGRkOw
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: RdGRkOw
+Next String: RdGrkOw
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: RdGrkOw
+Next String: RdGriOw
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: RdGriOw
+Next String: RdGRiOw
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: RdGRiOw
+Next String: RdGPiOw
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: RdGPiOw
+Next String: BdGPiOw
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: BdGPiOw
+Next String: BfGPiOw
+Expected around 32 bit changes, but got 8.
+
+Avalanche effect test failed for:
+Original String: BfGPiOw
+Next String: BfGPiOv
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: BfGPiOv
+Next String: BfgPiOv
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: BfgPiOv
+Next String: BfgTiOv
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: BfgTiOv
+Next String: FfgTiOv
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: FfgTiOv
+Next String: FfgTiov
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: FfgTiov
+Next String: FfgTio6
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: FfgTio6
+Next String: FfcTio6
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: FfcTio6
+Next String: VfcTio6
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: VfcTio6
+Next String: FfcTio6
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: FfcTio6
+Next String: FfcTio4
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: FfcTio4
+Next String: FfcTin4
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: FfcTin4
+Next String: FfcTin5
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: FfcTin5
+Next String: FfcThn5
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: FfcThn5
+Next String: VfcThn5
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: VfcThn5
+Next String: VfCThn5
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: VfCThn5
+Next String: VgCThn5
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: VgCThn5
+Next String: VgCVhn5
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: VgCVhn5
+Next String: VgCvhn5
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: VgCvhn5
+Next String: VgCvhl5
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: VgCvhl5
+Next String: VgC6hl5
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: VgC6hl5
+Next String: TgC6hl5
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: TgC6hl5
+Next String: TgC2hl5
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: TgC2hl5
+Next String: TgCrhl5
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: TgCrhl5
+Next String: Tgcrhl5
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: Tgcrhl5
+Next String: Tgcrhl7
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: Tgcrhl7
+Next String: Tgcrjl7
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: Tgcrjl7
+Next String: Tgc2jl7
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: Tgc2jl7
+Next String: Dgc2jl7
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: Dgc2jl7
+Next String: Tgc2jl7
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: Tgc2jl7
+Next String: Tgc2jl3
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: Tgc2jl3
+Next String: Tgb2jl3
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: Tgb2jl3
+Next String: Tgb2jm3
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: Tgb2jm3
+Next String: Tgb2nm3
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: Tgb2nm3
+Next String: Tgb2lm3
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: Tgb2lm3
+Next String: Tgb2li3
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: Tgb2li3
+Next String: Tgb2li7
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: Tgb2li7
+Next String: Tgb2lk7
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: Tgb2lk7
+Next String: Tgb2lk3
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: Tgb2lk3
+Next String: Tgb2lk2
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: Tgb2lk2
+Next String: Teb2lk2
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: Teb2lk2
+Next String: Tab2lk2
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: Tab2lk2
+Next String: Taj2lk2
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: Taj2lk2
+Next String: Taj2hk2
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: Taj2hk2
+Next String: Taj2ho2
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: Taj2ho2
+Next String: Taj2hn2
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: Taj2hn2
+Next String: Tqj2hn2
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: Tqj2hn2
+Next String: Tqj2hn0
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: Tqj2hn0
+Next String: Tqb2hn0
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: Tqb2hn0
+Next String: Vqb2hn0
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: Vqb2hn0
+Next String: vqb2hn0
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: vqb2hn0
+Next String: rqb2hn0
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: rqb2hn0
+Next String: rqb6hn0
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: rqb6hn0
+Next String: rqb6hf0
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: rqb6hf0
+Next String: Rqb6hf0
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: Rqb6hf0
+Next String: Zqb6hf0
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: Zqb6hf0
+Next String: Zqb4hf0
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: Zqb4hf0
+Next String: Xqb4hf0
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: Xqb4hf0
+Next String: Xqbthf0
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: Xqbthf0
+Next String: Xqbtjf0
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: Xqbtjf0
+Next String: Xqbthf0
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: Xqbthf0
+Next String: XqBthf0
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: XqBthf0
+Next String: XqBthf1
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: XqBthf1
+Next String: XqFthf1
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: XqFthf1
+Next String: XqFthv1
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: XqFthv1
+Next String: YqFthv1
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: YqFthv1
+Next String: QqFthv1
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: QqFthv1
+Next String: QyFthv1
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: QyFthv1
+Next String: QyFphv1
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: QyFphv1
+Next String: QyFphv9
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: QyFphv9
+Next String: AyFphv9
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: AyFphv9
+Next String: IyFphv9
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: IyFphv9
+Next String: IyFphw9
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: IyFphw9
+Next String: IqFphw9
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: IqFphw9
+Next String: IqFphwy
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: IqFphwy
+Next String: IqFphvy
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: IqFphvy
+Next String: IqFphvi
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: IqFphvi
+Next String: IqFthvi
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: IqFthvi
+Next String: IqFthvh
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: IqFthvh
+Next String: IqFvhvh
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: IqFvhvh
+Next String: IqFvhth
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: IqFvhth
+Next String: HqFvhth
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: HqFvhth
+Next String: HqFvh4h
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: HqFvh4h
+Next String: hqFvh4h
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: hqFvh4h
+Next String: jqFvh4h
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: jqFvh4h
+Next String: jqFvh5h
+Expected around 32 bit changes, but got 8.
+
+Avalanche effect test failed for:
+Original String: jqFvh5h
+Next String: jqF6h5h
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: jqF6h5h
+Next String: jqF6i5h
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: jqF6i5h
+Next String: jqF6i5i
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: jqF6i5i
+Next String: jqF6a5i
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: jqF6a5i
+Next String: jqD6a5i
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: jqD6a5i
+Next String: jsD6a5i
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: jsD6a5i
+Next String: jsD4a5i
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: jsD4a5i
+Next String: jsF4a5i
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: jsF4a5i
+Next String: jsF4a1i
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: jsF4a1i
+Next String: jsF6a1i
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: jsF6a1i
+Next String: jcF6a1i
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: jcF6a1i
+Next String: jcF6a1h
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: jcF6a1h
+Next String: jcF6a3h
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: jcF6a3h
+Next String: jsF6a3h
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: jsF6a3h
+Next String: jsF6A3h
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: jsF6A3h
+Next String: jsB6A3h
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: jsB6A3h
+Next String: ksB6A3h
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: ksB6A3h
+Next String: jsB6A3h
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: jsB6A3h
+Next String: jsB2A3h
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: jsB2A3h
+Next String: jsB2A3H
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: jsB2A3H
+Next String: jsR2A3H
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: jsR2A3H
+Next String: jsR0A3H
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: jsR0A3H
+Next String: ksR0A3H
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: ksR0A3H
+Next String: osR0A3H
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: osR0A3H
+Next String: osR8A3H
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: osR8A3H
+Next String: osR8E3H
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: osR8E3H
+Next String: osR9E3H
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: osR9E3H
+Next String: osR9E3X
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: osR9E3X
+Next String: nsR9E3X
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: nsR9E3X
+Next String: nsV9E3X
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: nsV9E3X
+Next String: nsV9M3X
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: nsV9M3X
+Next String: nsV9M3H
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: nsV9M3H
+Next String: nsV9M2H
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: nsV9M2H
+Next String: nsV9M6H
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: nsV9M6H
+Next String: osV9M6H
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: osV9M6H
+Next String: o3V9M6H
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: o3V9M6H
+Next String: o2V9M6H
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: o2V9M6H
+Next String: g2V9M6H
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: g2V9M6H
+Next String: g0V9M6H
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: g0V9M6H
+Next String: g0V9M4H
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: g0V9M4H
+Next String: g0V8M4H
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: g0V8M4H
+Next String: g2V8M4H
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: g2V8M4H
+Next String: g2W8M4H
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: g2W8M4H
+Next String: g2WxM4H
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: g2WxM4H
+Next String: g2WyM4H
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: g2WyM4H
+Next String: g3WyM4H
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: g3WyM4H
+Next String: c3WyM4H
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: c3WyM4H
+Next String: c7WyM4H
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: c7WyM4H
+Next String: c7GyM4H
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: c7GyM4H
+Next String: c7GyM6H
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: c7GyM6H
+Next String: c7G9M6H
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: c7G9M6H
+Next String: c7G9O6H
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: c7G9O6H
+Next String: c7G9O6X
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: c7G9O6X
+Next String: c7G9O6P
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: c7G9O6P
+Next String: c7G8O6P
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: c7G8O6P
+Next String: cwG8O6P
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: cwG8O6P
+Next String: cwG8O6T
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: cwG8O6T
+Next String: cwG8O6t
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: cwG8O6t
+Next String: cwG9O6t
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: cwG9O6t
+Next String: cwG9K6t
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: cwG9K6t
+Next String: cWG9K6t
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: cWG9K6t
+Next String: cWG1K6t
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: cWG1K6t
+Next String: cWG1C6t
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: cWG1C6t
+Next String: cWG1C4t
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: cWG1C4t
+Next String: cWG3C4t
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: cWG3C4t
+Next String: sWG3C4t
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: sWG3C4t
+Next String: sWG3C4d
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: sWG3C4d
+Next String: sWG3S4d
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: sWG3S4d
+Next String: sWG7S4d
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: sWG7S4d
+Next String: sWO7S4d
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: sWO7S4d
+Next String: sWOwS4d
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: sWOwS4d
+Next String: sSOwS4d
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: sSOwS4d
+Next String: rSOwS4d
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: rSOwS4d
+Next String: rSOwR4d
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: rSOwR4d
+Next String: rSOwr4d
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: rSOwr4d
+Next String: zSOwr4d
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: zSOwr4d
+Next String: jSOwr4d
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: jSOwr4d
+Next String: bSOwr4d
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: bSOwr4d
+Next String: bSOwr4f
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: bSOwr4f
+Next String: bSOwr4n
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: bSOwr4n
+Next String: bSOwr5n
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: bSOwr5n
+Next String: bSOvr5n
+Expected around 32 bit changes, but got 8.
+
+Avalanche effect test failed for:
+Original String: bSOvr5n
+Next String: bSOvr7n
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: bSOvr7n
+Next String: bSO6r7n
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: bSO6r7n
+Next String: bSO6z7n
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: bSO6z7n
+Next String: bSO6j7n
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: bSO6j7n
+Next String: bSo6j7n
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: bSo6j7n
+Next String: bSO6j7n
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: bSO6j7n
+Next String: bSO6j7f
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: bSO6j7f
+Next String: bSG6j7f
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: bSG6j7f
+Next String: bSG6j5f
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: bSG6j5f
+Next String: bSG6k5f
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: bSG6k5f
+Next String: bSG4k5f
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: bSG4k5f
+Next String: bSG5k5f
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: bSG5k5f
+Next String: bSG5k5F
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: bSG5k5F
+Next String: jSG5k5F
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: jSG5k5F
+Next String: jSG5k5f
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: jSG5k5f
+Next String: jWG5k5f
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: jWG5k5f
+Next String: jWg5k5f
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: jWg5k5f
+Next String: zWg5k5f
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: zWg5k5f
+Next String: zWg5o5f
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: zWg5o5f
+Next String: zWg5ouf
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: zWg5ouf
+Next String: zWg5oud
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: zWg5oud
+Next String: zWg5o5d
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: zWg5o5d
+Next String: zWg5O5d
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: zWg5O5d
+Next String: zWg5O5t
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: zWg5O5t
+Next String: zWg7O5t
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: zWg7O5t
+Next String: ZWg7O5t
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ZWg7O5t
+Next String: Zwg7O5t
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: Zwg7O5t
+Next String: Zwg5O5t
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: Zwg5O5t
+Next String: Zwg5O5p
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: Zwg5O5p
+Next String: Jwg5O5p
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: Jwg5O5p
+Next String: Jwg5O5r
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: Jwg5O5r
+Next String: Jwg5N5r
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: Jwg5N5r
+Next String: Jwg5N5b
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: Jwg5N5b
+Next String: Nwg5N5b
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: Nwg5N5b
+Next String: Nwg1N5b
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: Nwg1N5b
+Next String: Fwg1N5b
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: Fwg1N5b
+Next String: FwG1N5b
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: FwG1N5b
+Next String: FwG1N5c
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: FwG1N5c
+Next String: FwG9N5c
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: FwG9N5c
+Next String: FWG9N5c
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: FWG9N5c
+Next String: FWg9N5c
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: FWg9N5c
+Next String: FWc9N5c
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: FWc9N5c
+Next String: DWc9N5c
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: DWc9N5c
+Next String: DWc9F5c
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: DWc9F5c
+Next String: DWc9F5k
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: DWc9F5k
+Next String: DWc9Fuk
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: DWc9Fuk
+Next String: DWc9Vuk
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: DWc9Vuk
+Next String: DWs9Vuk
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: DWs9Vuk
+Next String: TWs9Vuk
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: TWs9Vuk
+Next String: TWs1Vuk
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: TWs1Vuk
+Next String: VWs1Vuk
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: VWs1Vuk
+Next String: VWs1Vek
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: VWs1Vek
+Next String: VWsqVek
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: VWsqVek
+Next String: VWsqRek
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: VWsqRek
+Next String: vWsqRek
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: vWsqRek
+Next String: rWsqRek
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: rWsqRek
+Next String: rWsqPek
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: rWsqPek
+Next String: vWsqPek
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: vWsqPek
+Next String: vWsqQek
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: vWsqQek
+Next String: vWsaQek
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: vWsaQek
+Next String: vWsaqek
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: vWsaqek
+Next String: vWsasek
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: vWsasek
+Next String: vWsarek
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: vWsarek
+Next String: vWrarek
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: vWrarek
+Next String: vWrerek
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: vWrerek
+Next String: vWverek
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: vWverek
+Next String: vWvereK
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: vWvereK
+Next String: vWveraK
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: vWveraK
+Next String: vWveraJ
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: vWveraJ
+Next String: vWveraj
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: vWveraj
+Next String: vWvEraj
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: vWvEraj
+Next String: vWvErcj
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: vWvErcj
+Next String: vWvErcb
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: vWvErcb
+Next String: vWvErsb
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: vWvErsb
+Next String: fWvErsb
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: fWvErsb
+Next String: fWvDrsb
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: fWvDrsb
+Next String: fWvDrqb
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: fWvDrqb
+Next String: fWvDrub
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: fWvDrub
+Next String: fWwDrub
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: fWwDrub
+Next String: fWsDrub
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: fWsDrub
+Next String: fWsDrUb
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: fWsDrUb
+Next String: fUsDrUb
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: fUsDrUb
+Next String: dUsDrUb
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: dUsDrUb
+Next String: dUsDrub
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: dUsDrub
+Next String: dUsDrwb
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: dUsDrwb
+Next String: tUsDrwb
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: tUsDrwb
+Next String: tUqDrwb
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: tUqDrwb
+Next String: tUqDvwb
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: tUqDvwb
+Next String: tTqDvwb
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: tTqDvwb
+Next String: tUqDvwb
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: tUqDvwb
+Next String: tUqdvwb
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: tUqdvwb
+Next String: tUqdvvb
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: tUqdvvb
+Next String: tUqlvvb
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: tUqlvvb
+Next String: tUqLvvb
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: tUqLvvb
+Next String: tUqLrvb
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: tUqLrvb
+Next String: tUqDrvb
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: tUqDrvb
+Next String: tuqDrvb
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: tuqDrvb
+Next String: tuqD2vb
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: tuqD2vb
+Next String: tuqd2vb
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: tuqd2vb
+Next String: tuqd2vr
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: tuqd2vr
+Next String: tuqd3vr
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: tuqd3vr
+Next String: tuad3vr
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: tuad3vr
+Next String: tuad3vp
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: tuad3vp
+Next String: t5ad3vp
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: t5ad3vp
+Next String: t5ad3vq
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: t5ad3vq
+Next String: t5af3vq
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: t5af3vq
+Next String: t5av3vq
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: t5av3vq
+Next String: t5aV3vq
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: t5aV3vq
+Next String: t5aT3vq
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: t5aT3vq
+Next String: t5cT3vq
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: t5cT3vq
+Next String: T5cT3vq
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: T5cT3vq
+Next String: V5cT3vq
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: V5cT3vq
+Next String: R5cT3vq
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: R5cT3vq
+Next String: R4cT3vq
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: R4cT3vq
+Next String: RtcT3vq
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: RtcT3vq
+Next String: RtcV3vq
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: RtcV3vq
+Next String: RtcV3va
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: RtcV3va
+Next String: RtsV3va
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: RtsV3va
+Next String: RtsV7va
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: RtsV7va
+Next String: RtsV7vA
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: RtsV7vA
+Next String: RtsV3vA
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: RtsV3vA
+Next String: RtsT3vA
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: RtsT3vA
+Next String: RtsU3vA
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: RtsU3vA
+Next String: rtsU3vA
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: rtsU3vA
+Next String: rtsU3rA
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: rtsU3rA
+Next String: rtsQ3rA
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: rtsQ3rA
+Next String: rusQ3rA
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: rusQ3rA
+Next String: rusQ32A
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: rusQ32A
+Next String: ruwQ32A
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: ruwQ32A
+Next String: ru7Q32A
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: ru7Q32A
+Next String: ru7Q36A
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: ru7Q36A
+Next String: rU7Q36A
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: rU7Q36A
+Next String: rU7Q36I
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: rU7Q36I
+Next String: rT7Q36I
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: rT7Q36I
+Next String: rT3Q36I
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: rT3Q36I
+Next String: rT3U36I
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: rT3U36I
+Next String: rT3U32I
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: rT3U32I
+Next String: rT3U22I
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: rT3U22I
+Next String: rT3U20I
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: rT3U20I
+Next String: rT3U60I
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: rT3U60I
+Next String: rP3U60I
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: rP3U60I
+Next String: rP3U60K
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: rP3U60K
+Next String: rP7U60K
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: rP7U60K
+Next String: rp7U60K
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: rp7U60K
+Next String: rp5U60K
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: rp5U60K
+Next String: rp5W60K
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: rp5W60K
+Next String: r05W60K
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: r05W60K
+Next String: r05W20K
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: r05W20K
+Next String: r45W20K
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: r45W20K
+Next String: r44W20K
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: r44W20K
+Next String: r44G20K
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: r44G20K
+Next String: r44O20K
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: r44O20K
+Next String: r44O00K
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: r44O00K
+Next String: r44O40K
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: r44O40K
+Next String: p44O40K
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: p44O40K
+Next String: p46O40K
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: p46O40K
+Next String: p46O41K
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: p46O41K
+Next String: p46O51K
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: p46O51K
+Next String: p56O51K
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: p56O51K
+Next String: r56O51K
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: r56O51K
+Next String: r56K51K
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: r56K51K
+Next String: r56K53K
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: r56K53K
+Next String: r56K13K
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: r56K13K
+Next String: b56K13K
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: b56K13K
+Next String: b56k13K
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: b56k13K
+Next String: b54k13K
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: b54k13K
+Next String: b54k53K
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: b54k53K
+Next String: b54k57K
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: b54k57K
+Next String: b14k57K
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: b14k57K
+Next String: b14k77K
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: b14k77K
+Next String: b14i77K
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: b14i77K
+Next String: b15i77K
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: b15i77K
+Next String: b35i77K
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: b35i77K
+Next String: b35h77K
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: b35h77K
+Next String: b35h67K
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: b35h67K
+Next String: b35h67I
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: b35h67I
+Next String: b35i67I
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: b35i67I
+Next String: f35i67I
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: f35i67I
+Next String: fs5i67I
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: fs5i67I
+Next String: fs5I67I
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: fs5I67I
+Next String: fs5I6wI
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: fs5I6wI
+Next String: fc5I6wI
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: fc5I6wI
+Next String: fc1I6wI
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: fc1I6wI
+Next String: fc5I6wI
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: fc5I6wI
+Next String: fc1I6wI
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: fc1I6wI
+Next String: fc1I6wH
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: fc1I6wH
+Next String: fc1I6wL
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: fc1I6wL
+Next String: fc1IvwL
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: fc1IvwL
+Next String: vc1IvwL
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: vc1IvwL
+Next String: va1IvwL
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: va1IvwL
+Next String: ve1IvwL
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ve1IvwL
+Next String: ve1IvuL
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: ve1IvuL
+Next String: te1IvuL
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: te1IvuL
+Next String: ta1IvuL
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: ta1IvuL
+Next String: ta1IwuL
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: ta1IwuL
+Next String: ta1IwUL
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ta1IwUL
+Next String: ta1IwuL
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ta1IwuL
+Next String: ta1IwuD
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: ta1IwuD
+Next String: ta1IuuD
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: ta1IuuD
+Next String: ta1I5uD
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: ta1I5uD
+Next String: ta1I4uD
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: ta1I4uD
+Next String: ta1I0uD
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ta1I0uD
+Next String: ta1I0uL
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ta1I0uL
+Next String: ta1I8uL
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: ta1I8uL
+Next String: te1I8uL
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: te1I8uL
+Next String: te1IxuL
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: te1IxuL
+Next String: te1IzuL
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: te1IzuL
+Next String: tE1IzuL
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: tE1IzuL
+Next String: vE1IzuL
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: vE1IzuL
+Next String: vE1IxuL
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: vE1IxuL
+Next String: vEqIxuL
+Expected around 32 bit changes, but got 0.
+
+Avalanche effect test failed for:
+Original String: vEqIxuL
+Next String: vEqIyuL
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: vEqIyuL
+Next String: vEqIytL
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: vEqIytL
+Next String: vEqIyuL
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: vEqIyuL
+Next String: vEqI9uL
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: vEqI9uL
+Next String: vEqIyuL
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: vEqIyuL
+Next String: veqIyuL
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: veqIyuL
+Next String: veuIyuL
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: veuIyuL
+Next String: veuIyuN
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: veuIyuN
+Next String: veuIyqN
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: veuIyqN
+Next String: veuKyqN
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: veuKyqN
+Next String: veuIyqN
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: veuIyqN
+Next String: veuiyqN
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: veuiyqN
+Next String: veumyqN
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: veumyqN
+Next String: vmumyqN
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: vmumyqN
+Next String: vmUmyqN
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: vmUmyqN
+Next String: voUmyqN
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: voUmyqN
+Next String: voUmxqN
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: voUmxqN
+Next String: voUlxqN
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: voUlxqN
+Next String: vnUlxqN
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: vnUlxqN
+Next String: vnUlxqL
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: vnUlxqL
+Next String: vnUlxuL
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: vnUlxuL
+Next String: vnUlxul
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: vnUlxul
+Next String: vnElxul
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: vnElxul
+Next String: vnelxul
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: vnelxul
+Next String: vnalxul
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: vnalxul
+Next String: rnalxul
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: rnalxul
+Next String: rnalx5l
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: rnalx5l
+Next String: rnal85l
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: rnal85l
+Next String: rnal85d
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: rnal85d
+Next String: rnil85d
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: rnil85d
+Next String: rnid85d
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: rnid85d
+Next String: rNid85d
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: rNid85d
+Next String: rNkd85d
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: rNkd85d
+Next String: rOkd85d
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: rOkd85d
+Next String: rOkd85l
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: rOkd85l
+Next String: rOkd85h
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: rOkd85h
+Next String: rOKd85h
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: rOKd85h
+Next String: rOKdx5h
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: rOKdx5h
+Next String: rOKdx1h
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: rOKdx1h
+Next String: ROKdx1h
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: ROKdx1h
+Next String: SOKdx1h
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: SOKdx1h
+Next String: SNKdx1h
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: SNKdx1h
+Next String: SNKtx1h
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: SNKtx1h
+Next String: SNKtx9h
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: SNKtx9h
+Next String: SNKtp9h
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: SNKtp9h
+Next String: SNKtp8h
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: SNKtp8h
+Next String: WNKtp8h
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: WNKtp8h
+Next String: WnKtp8h
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: WnKtp8h
+Next String: WnJtp8h
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: WnJtp8h
+Next String: WoJtp8h
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: WoJtp8h
+Next String: WoKtp8h
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: WoKtp8h
+Next String: WoKtp9h
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: WoKtp9h
+Next String: WoKdp9h
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: WoKdp9h
+Next String: WoKdp9l
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: WoKdp9l
+Next String: WoCdp9l
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: WoCdp9l
+Next String: WkCdp9l
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: WkCdp9l
+Next String: WkCdp8l
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: WkCdp8l
+Next String: WkCdp8d
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: WkCdp8d
+Next String: WkCdp8D
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: WkCdp8D
+Next String: WkCep8D
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: WkCep8D
+Next String: WkGep8D
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: WkGep8D
+Next String: WkGep8F
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: WkGep8F
+Next String: WkFep8F
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: WkFep8F
+Next String: WkFepxF
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: WkFepxF
+Next String: WkfepxF
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: WkfepxF
+Next String: WkbepxF
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: WkbepxF
+Next String: GkbepxF
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: GkbepxF
+Next String: GkbepzF
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: GkbepzF
+Next String: GkBepzF
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: GkBepzF
+Next String: GkBePzF
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: GkBePzF
+Next String: WkBePzF
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: WkBePzF
+Next String: WkBePzG
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: WkBePzG
+Next String: WkBeRzG
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: WkBeRzG
+Next String: WkBeRjG
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: WkBeRjG
+Next String: WkBdRjG
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: WkBdRjG
+Next String: WkBdRjC
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: WkBdRjC
+Next String: WkBdRjK
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: WkBdRjK
+Next String: WKBdRjK
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: WKBdRjK
+Next String: WKBdRjk
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: WKBdRjk
+Next String: WKBdRjj
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: WKBdRjj
+Next String: WIBdRjj
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: WIBdRjj
+Next String: WICdRjj
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: WICdRjj
+Next String: WIClRjj
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: WIClRjj
+Next String: WIChRjj
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: WIChRjj
+Next String: WICiRjj
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: WICiRjj
+Next String: WISiRjj
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: WISiRjj
+Next String: WIWiRjj
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: WIWiRjj
+Next String: UIWiRjj
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: UIWiRjj
+Next String: uIWiRjj
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: uIWiRjj
+Next String: uIWiRbj
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: uIWiRbj
+Next String: uIWiRjj
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: uIWiRjj
+Next String: uIGiRjj
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: uIGiRjj
+Next String: uAGiRjj
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: uAGiRjj
+Next String: uAGiRjJ
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: uAGiRjJ
+Next String: uAGirjJ
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: uAGirjJ
+Next String: uAGIrjJ
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: uAGIrjJ
+Next String: uACIrjJ
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: uACIrjJ
+Next String: uACIrkJ
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: uACIrkJ
+Next String: uICIrkJ
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: uICIrkJ
+Next String: uIAIrkJ
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: uIAIrkJ
+Next String: uIAIrkZ
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: uIAIrkZ
+Next String: uiAIrkZ
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: uiAIrkZ
+Next String: uiAIpkZ
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: uiAIpkZ
+Next String: uiAIpiZ
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: uiAIpiZ
+Next String: uiAKpiZ
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: uiAKpiZ
+Next String: tiAKpiZ
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: tiAKpiZ
+Next String: diAKpiZ
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: diAKpiZ
+Next String: tiAKpiZ
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: tiAKpiZ
+Next String: diAKpiZ
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: diAKpiZ
+Next String: diaKpiZ
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: diaKpiZ
+Next String: diaKtiZ
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: diaKtiZ
+Next String: diiKtiZ
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: diiKtiZ
+Next String: diiCtiZ
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: diiCtiZ
+Next String: dhiCtiZ
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: dhiCtiZ
+Next String: dhkCtiZ
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: dhkCtiZ
+Next String: dhKCtiZ
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: dhKCtiZ
+Next String: dhKCtiJ
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dhKCtiJ
+Next String: dhKCtiH
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dhKCtiH
+Next String: dhKCtiL
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dhKCtiL
+Next String: dhKCuiL
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: dhKCuiL
+Next String: dhKSuiL
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: dhKSuiL
+Next String: dhCSuiL
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: dhCSuiL
+Next String: dhCSuhL
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: dhCSuhL
+Next String: dhCSuhl
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dhCSuhl
+Next String: dhCSwhl
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: dhCSwhl
+Next String: dhSSwhl
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: dhSSwhl
+Next String: dhSSshl
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: dhSSshl
+Next String: dxSSshl
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: dxSSshl
+Next String: dxSQshl
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: dxSQshl
+Next String: DxSQshl
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: DxSQshl
+Next String: DxSPshl
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: DxSPshl
+Next String: DySPshl
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: DySPshl
+Next String: DySPsjl
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: DySPsjl
+Next String: DySPsjn
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: DySPsjn
+Next String: DYSPsjn
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: DYSPsjn
+Next String: LYSPsjn
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: LYSPsjn
+Next String: LYSPshn
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: LYSPshn
+Next String: LYSPsln
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: LYSPsln
+Next String: MYSPsln
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: MYSPsln
+Next String: MQSPsln
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: MQSPsln
+Next String: MYSPsln
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: MYSPsln
+Next String: MYCPsln
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: MYCPsln
+Next String: MYCPsnn
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: MYCPsnn
+Next String: MICPsnn
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: MICPsnn
+Next String: MICRsnn
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: MICRsnn
+Next String: MICRwnn
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: MICRwnn
+Next String: IICRwnn
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: IICRwnn
+Next String: IICRwon
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: IICRwon
+Next String: IIcRwon
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: IIcRwon
+Next String: IIcRwgn
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: IIcRwgn
+Next String: IIcSwgn
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: IIcSwgn
+Next String: IIcS7gn
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: IIcS7gn
+Next String: IIcS7gf
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: IIcS7gf
+Next String: IIcS7Gf
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: IIcS7Gf
+Next String: IHcS7Gf
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: IHcS7Gf
+Next String: IXcS7Gf
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: IXcS7Gf
+Next String: IXcS5Gf
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: IXcS5Gf
+Next String: IXbS5Gf
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: IXbS5Gf
+Next String: iXbS5Gf
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: iXbS5Gf
+Next String: iXbS1Gf
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: iXbS1Gf
+Next String: iXbS1Wf
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: iXbS1Wf
+Next String: iYbS1Wf
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: iYbS1Wf
+Next String: iYbS1Sf
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: iYbS1Sf
+Next String: iYbS1Qf
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: iYbS1Qf
+Next String: iYbS1Qv
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: iYbS1Qv
+Next String: iYrS1Qv
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: iYrS1Qv
+Next String: iYrS9Qv
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: iYrS9Qv
+Next String: kYrS9Qv
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: kYrS9Qv
+Next String: kYrC9Qv
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kYrC9Qv
+Next String: kYrC9Uv
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: kYrC9Uv
+Next String: kYrC1Uv
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: kYrC1Uv
+Next String: kYvC1Uv
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: kYvC1Uv
+Next String: kYvC1U6
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kYvC1U6
+Next String: kYwC1U6
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: kYwC1U6
+Next String: kywC1U6
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: kywC1U6
+Next String: kywC1u6
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: kywC1u6
+Next String: k9wC1u6
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: k9wC1u6
+Next String: k9wB1u6
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: k9wB1u6
+Next String: k8wB1u6
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: k8wB1u6
+Next String: k8wB1q6
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: k8wB1q6
+Next String: o8wB1q6
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: o8wB1q6
+Next String: o8wB0q6
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: o8wB0q6
+Next String: o8wB0u6
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: o8wB0u6
+Next String: o8wJ0u6
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: o8wJ0u6
+Next String: o8wB0u6
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: o8wB0u6
+Next String: oxwB0u6
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: oxwB0u6
+Next String: oxwB0u2
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: oxwB0u2
+Next String: oxwb0u2
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: oxwb0u2
+Next String: ox7b0u2
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: ox7b0u2
+Next String: ox3b0u2
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: ox3b0u2
+Next String: ox3b0u3
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ox3b0u3
+Next String: ox3b8u3
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ox3b8u3
+Next String: kx3b8u3
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: kx3b8u3
+Next String: kx3f8u3
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: kx3f8u3
+Next String: kx3f8us
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kx3f8us
+Next String: kx3b8us
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: kx3b8us
+Next String: kx3b8qs
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: kx3b8qs
+Next String: kx3b8qw
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kx3b8qw
+Next String: kX3b8qw
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: kX3b8qw
+Next String: kX3b8uw
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: kX3b8uw
+Next String: kY3b8uw
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: kY3b8uw
+Next String: kYsb8uw
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: kYsb8uw
+Next String: kXsb8uw
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: kXsb8uw
+Next String: kXsb8u7
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kXsb8u7
+Next String: kXsb8uw
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kXsb8uw
+Next String: kXsb0uw
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: kXsb0uw
+Next String: kXrb0uw
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: kXrb0uw
+Next String: kXrr0uw
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: kXrr0uw
+Next String: kXrr0ug
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: kXrr0ug
+Next String: kXrr0tg
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: kXrr0tg
+Next String: kXrr0to
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kXrr0to
+Next String: kXrr0tk
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kXrr0tk
+Next String: kXrr0pk
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: kXrr0pk
+Next String: kXrR0pk
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: kXrR0pk
+Next String: kXrR0xk
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: kXrR0xk
+Next String: kXrR0pk
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: kXrR0pk
+Next String: kxrR0pk
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: kxrR0pk
+Next String: kxzR0pk
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: kxzR0pk
+Next String: kyzR0pk
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: kyzR0pk
+Next String: oyzR0pk
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: oyzR0pk
+Next String: oxzR0pk
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: oxzR0pk
+Next String: oxxR0pk
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: oxxR0pk
+Next String: oxxR0xk
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: oxxR0xk
+Next String: ozxR0xk
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ozxR0xk
+Next String: ozxR0xc
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ozxR0xc
+Next String: ozxR1xc
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: ozxR1xc
+Next String: mzxR1xc
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: mzxR1xc
+Next String: mrxR1xc
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: mrxR1xc
+Next String: mrxR1xg
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: mrxR1xg
+Next String: mrxR18g
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: mrxR18g
+Next String: mzxR18g
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: mzxR18g
+Next String: mzxR08g
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: mzxR08g
+Next String: mzxR28g
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: mzxR28g
+Next String: mzpR28g
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: mzpR28g
+Next String: ezpR28g
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: ezpR28g
+Next String: gzpR28g
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: gzpR28g
+Next String: gzrR28g
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: gzrR28g
+Next String: gZrR28g
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: gZrR28g
+Next String: gZsR28g
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: gZsR28g
+Next String: gZsR28c
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: gZsR28c
+Next String: eZsR28c
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: eZsR28c
+Next String: ezsR28c
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: ezsR28c
+Next String: ersR28c
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: ersR28c
+Next String: ersR2xc
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ersR2xc
+Next String: ersR2xs
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: ersR2xs
+Next String: ersR6xs
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: ersR6xs
+Next String: ersR2xs
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: ersR2xs
+Next String: erwR2xs
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: erwR2xs
+Next String: mrwR2xs
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: mrwR2xs
+Next String: mrwR2xc
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: mrwR2xc
+Next String: mrwR2xg
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: mrwR2xg
+Next String: mvwR2xg
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: mvwR2xg
+Next String: mfwR2xg
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: mfwR2xg
+Next String: lfwR2xg
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: lfwR2xg
+Next String: lfwRrxg
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: lfwRrxg
+Next String: lfwRvxg
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: lfwRvxg
+Next String: lfWRvxg
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: lfWRvxg
+Next String: lvWRvxg
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: lvWRvxg
+Next String: lvWRv8g
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: lvWRv8g
+Next String: dvWRv8g
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: dvWRv8g
+Next String: dvWRr8g
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: dvWRr8g
+Next String: dvWRr8c
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: dvWRr8c
+Next String: dvWZr8c
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: dvWZr8c
+Next String: dvWZb8c
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dvWZb8c
+Next String: evWZb8c
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: evWZb8c
+Next String: evSZb8c
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: evSZb8c
+Next String: dvSZb8c
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: dvSZb8c
+Next String: dvSJb8c
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dvSJb8c
+Next String: dvSJb8k
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: dvSJb8k
+Next String: dvSJbxk
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: dvSJbxk
+Next String: dvSJbxo
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dvSJbxo
+Next String: dvSJbxg
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: dvSJbxg
+Next String: dvSKbxg
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: dvSKbxg
+Next String: dvSKb8g
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dvSKb8g
+Next String: dvSKB8g
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dvSKB8g
+Next String: drSKB8g
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: drSKB8g
+Next String: drSCB8g
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: drSCB8g
+Next String: drSCC8g
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: drSCC8g
+Next String: lrSCC8g
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: lrSCC8g
+Next String: lrSCCxg
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: lrSCCxg
+Next String: mrSCCxg
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: mrSCCxg
+Next String: mbSCCxg
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: mbSCCxg
+Next String: mbSCSxg
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: mbSCSxg
+Next String: mbSCSxo
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: mbSCSxo
+Next String: mbCCSxo
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: mbCCSxo
+Next String: mbCcSxo
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: mbCcSxo
+Next String: mbccSxo
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: mbccSxo
+Next String: MbccSxo
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: MbccSxo
+Next String: MbccWxo
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: MbccWxo
+Next String: MbccWyo
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: MbccWyo
+Next String: MbkcWyo
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: MbkcWyo
+Next String: ObkcWyo
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: ObkcWyo
+Next String: ObocWyo
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: ObocWyo
+Next String: ObocWxo
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: ObocWxo
+Next String: ObOcWxo
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ObOcWxo
+Next String: ObocWxo
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ObocWxo
+Next String: ObocWxg
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: ObocWxg
+Next String: ObocWxe
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ObocWxe
+Next String: ObocVxe
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: ObocVxe
+Next String: OjocVxe
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: OjocVxe
+Next String: OjocVxm
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: OjocVxm
+Next String: OjocVxi
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: OjocVxi
+Next String: OjoCVxi
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: OjoCVxi
+Next String: OjoCFxi
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: OjoCFxi
+Next String: OjoGFxi
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: OjoGFxi
+Next String: OhoGFxi
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: OhoGFxi
+Next String: OhoGNxi
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: OhoGNxi
+Next String: OhoGNzi
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: OhoGNzi
+Next String: OhoGNji
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: OhoGNji
+Next String: OhoGNjm
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: OhoGNjm
+Next String: OhoGFjm
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: OhoGFjm
+Next String: OioGFjm
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: OioGFjm
+Next String: OiOGFjm
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: OiOGFjm
+Next String: GiOGFjm
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: GiOGFjm
+Next String: GiOGGjm
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: GiOGGjm
+Next String: GiOGGjo
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: GiOGGjo
+Next String: GmOGGjo
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: GmOGGjo
+Next String: GmOEGjo
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: GmOEGjo
+Next String: GoOEGjo
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: GoOEGjo
+Next String: GoMEGjo
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: GoMEGjo
+Next String: GoMEGjg
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: GoMEGjg
+Next String: GgMEGjg
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: GgMEGjg
+Next String: GgMEGJg
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: GgMEGJg
+Next String: GgMEGKg
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: GgMEGKg
+Next String: ggMEGKg
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: ggMEGKg
+Next String: ggIEGKg
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: ggIEGKg
+Next String: ggIUGKg
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: ggIUGKg
+Next String: gfIUGKg
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: gfIUGKg
+Next String: gfIuGKg
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: gfIuGKg
+Next String: gFIuGKg
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: gFIuGKg
+Next String: gFIqGKg
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: gFIqGKg
+Next String: gFIqGIg
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: gFIqGIg
+Next String: gFIqGIc
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: gFIqGIc
+Next String: fFIqGIc
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: fFIqGIc
+Next String: fBIqGIc
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: fBIqGIc
+Next String: FBIqGIc
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: FBIqGIc
+Next String: FBIqGAc
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: FBIqGAc
+Next String: FBIqGAg
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: FBIqGAg
+Next String: FBIqGAG
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: FBIqGAG
+Next String: FBIqGCG
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: FBIqGCG
+Next String: FBIqGCF
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: FBIqGCF
+Next String: FBIqFCF
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: FBIqFCF
+Next String: FBiqFCF
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: FBiqFCF
+Next String: FBiqFGF
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: FBiqFGF
+Next String: GBiqFGF
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: GBiqFGF
+Next String: GBiqNGF
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: GBiqNGF
+Next String: CBiqNGF
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: CBiqNGF
+Next String: CBiqNFF
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: CBiqNFF
+Next String: CBiqNVF
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: CBiqNVF
+Next String: CBiqNVD
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: CBiqNVD
+Next String: CBipNVD
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: CBipNVD
+Next String: CBipNVd
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: CBipNVd
+Next String: CBipnVd
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: CBipnVd
+Next String: CBipnRd
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: CBipnRd
+Next String: CBipnSd
+Expected around 32 bit changes, but got 8.
+
+Avalanche effect test failed for:
+Original String: CBipnSd
+Next String: CBiPnSd
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: CBiPnSd
+Next String: CBiPnSl
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: CBiPnSl
+Next String: CBiPnWl
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: CBiPnWl
+Next String: CBIPnWl
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: CBIPnWl
+Next String: CBIPnWn
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: CBIPnWn
+Next String: CBIPnWl
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: CBIPnWl
+Next String: CBMPnWl
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: CBMPnWl
+Next String: CBMPnVl
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: CBMPnVl
+Next String: CBMPlVl
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: CBMPlVl
+Next String: CBOPlVl
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: CBOPlVl
+Next String: CBoPlVl
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: CBoPlVl
+Next String: CBoPlVd
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: CBoPlVd
+Next String: CBoPnVd
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: CBoPnVd
+Next String: CBoPnvd
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: CBoPnvd
+Next String: KBoPnvd
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: KBoPnvd
+Next String: KFoPnvd
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: KFoPnvd
+Next String: KFoPnVd
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: KFoPnVd
+Next String: CFoPnVd
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: CFoPnVd
+Next String: CFgPnVd
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: CFgPnVd
+Next String: CFfPnVd
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: CFfPnVd
+Next String: CFfPnTd
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: CFfPnTd
+Next String: CNfPnTd
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: CNfPnTd
+Next String: CNfPnPd
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: CNfPnPd
+Next String: CLfPnPd
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: CLfPnPd
+Next String: CLfPnpd
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: CLfPnpd
+Next String: KLfPnpd
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: KLfPnpd
+Next String: KMfPnpd
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: KMfPnpd
+Next String: KMfQnpd
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: KMfQnpd
+Next String: KMvQnpd
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: KMvQnpd
+Next String: KMrQnpd
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: KMrQnpd
+Next String: KOrQnpd
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: KOrQnpd
+Next String: KGrQnpd
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: KGrQnpd
+Next String: KGrQnrd
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: KGrQnrd
+Next String: KGrYnrd
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: KGrYnrd
+Next String: KGzYnrd
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: KGzYnrd
+Next String: KGzYnrl
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: KGzYnrl
+Next String: KGzYnrh
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: KGzYnrh
+Next String: OGzYnrh
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: OGzYnrh
+Next String: OGzYlrh
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: OGzYlrh
+Next String: OGzYlbh
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: OGzYlbh
+Next String: OGzYLbh
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: OGzYLbh
+Next String: OGzYLBh
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: OGzYLBh
+Next String: OGrYLBh
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: OGrYLBh
+Next String: OWrYLBh
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: OWrYLBh
+Next String: OWrILBh
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: OWrILBh
+Next String: OWrIMBh
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: OWrIMBh
+Next String: OSrIMBh
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: OSrIMBh
+Next String: OQrIMBh
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: OQrIMBh
+Next String: MQrIMBh
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: MQrIMBh
+Next String: LQrIMBh
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: LQrIMBh
+Next String: LQrIMBl
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: LQrIMBl
+Next String: LQrIMFl
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: LQrIMFl
+Next String: LQrIMFL
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: LQrIMFL
+Next String: LQrImFL
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: LQrImFL
+Next String: LQrIlFL
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: LQrIlFL
+Next String: LQrILFL
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: LQrILFL
+Next String: LqrILFL
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: LqrILFL
+Next String: LsrILFL
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: LsrILFL
+Next String: LsrILNL
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: LsrILNL
+Next String: DsrILNL
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: DsrILNL
+Next String: Ds2ILNL
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: Ds2ILNL
+Next String: Ds2ILLL
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: Ds2ILLL
+Next String: Ds2ILLM
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: Ds2ILLM
+Next String: Ds2ILLE
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: Ds2ILLE
+Next String: Dw2ILLE
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: Dw2ILLE
+Next String: DW2ILLE
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: DW2ILLE
+Next String: DW2YLLE
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: DW2YLLE
+Next String: DW2YLNE
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: DW2YLNE
+Next String: DG2YLNE
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: DG2YLNE
+Next String: dG2YLNE
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: dG2YLNE
+Next String: dG0YLNE
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: dG0YLNE
+Next String: dG0YlNE
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: dG0YlNE
+Next String: dGpYlNE
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dGpYlNE
+Next String: dFpYlNE
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: dFpYlNE
+Next String: dFpYLNE
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: dFpYLNE
+Next String: dVpYLNE
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: dVpYLNE
+Next String: DVpYLNE
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: DVpYLNE
+Next String: LVpYLNE
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: LVpYLNE
+Next String: LTpYLNE
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: LTpYLNE
+Next String: LTpXLNE
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: LTpXLNE
+Next String: lTpXLNE
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: lTpXLNE
+Next String: lTpXHNE
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: lTpXHNE
+Next String: lTpXXNE
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: lTpXXNE
+Next String: lTpYXNE
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: lTpYXNE
+Next String: lTpYxNE
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: lTpYxNE
+Next String: lTpYxLE
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: lTpYxLE
+Next String: dTpYxLE
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: dTpYxLE
+Next String: dTpYxLU
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dTpYxLU
+Next String: dTpYxLW
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: dTpYxLW
+Next String: dTpYxLU
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: dTpYxLU
+Next String: dTpYxMU
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: dTpYxMU
+Next String: dTpyxMU
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: dTpyxMU
+Next String: dTpypMU
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: dTpypMU
+Next String: eTpypMU
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: eTpypMU
+Next String: eTrypMU
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: eTrypMU
+Next String: eT2ypMU
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: eT2ypMU
+Next String: eT2ypEU
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: eT2ypEU
+Next String: eT2ypMU
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: eT2ypMU
+Next String: gT2ypMU
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: gT2ypMU
+Next String: gT2yqMU
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: gT2yqMU
+Next String: gT3yqMU
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: gT3yqMU
+Next String: gT3yqMT
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: gT3yqMT
+Next String: gT3ypMT
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: gT3ypMT
+Next String: gT2ypMT
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: gT2ypMT
+Next String: gT2ypMD
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: gT2ypMD
+Next String: gT2ypmD
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: gT2ypmD
+Next String: oT2ypmD
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: oT2ypmD
+Next String: oT0ypmD
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: oT0ypmD
+Next String: gT0ypmD
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: gT0ypmD
+Next String: gT0xpmD
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: gT0xpmD
+Next String: gT0xPmD
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: gT0xPmD
+Next String: gt0xPmD
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: gt0xPmD
+Next String: gt2xPmD
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: gt2xPmD
+Next String: gt3xPmD
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: gt3xPmD
+Next String: gt3xPmL
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: gt3xPmL
+Next String: gt2xPmL
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: gt2xPmL
+Next String: gt3xPmL
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: gt3xPmL
+Next String: gt1xPmL
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: gt1xPmL
+Next String: gt1pPmL
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: gt1pPmL
+Next String: gt1pXmL
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: gt1pXmL
+Next String: gt1tXmL
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: gt1tXmL
+Next String: gt1tHmL
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: gt1tHmL
+Next String: gt1tHmD
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: gt1tHmD
+Next String: gt1pHmD
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: gt1pHmD
+Next String: gt10HmD
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: gt10HmD
+Next String: gt30HmD
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: gt30HmD
+Next String: gt30XmD
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: gt30XmD
+Next String: gt30XlD
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: gt30XlD
+Next String: gt30XlF
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: gt30XlF
+Next String: gts0XlF
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: gts0XlF
+Next String: gtspXlF
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: gtspXlF
+Next String: otspXlF
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: otspXlF
+Next String: otspXlG
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: otspXlG
+Next String: ot3pXlG
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: ot3pXlG
+Next String: nt3pXlG
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: nt3pXlG
+Next String: nd3pXlG
+Expected around 32 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: nd3pXlG
+Next String: nd3tXlG
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: nd3tXlG
+Next String: nd3tZlG
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: nd3tZlG
+Next String: nD3tZlG
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: nD3tZlG
+Next String: nD3tZlC
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: nD3tZlC
+Next String: nD3tZlA
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: nD3tZlA
+Next String: nD3tZnA
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: nD3tZnA
+Next String: oD3tZnA
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: oD3tZnA
+Next String: oD3tZoA
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: oD3tZoA
+Next String: oD3tzoA
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: oD3tzoA
+Next String: oD3vzoA
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: oD3vzoA
+Next String: oD3vzoE
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: oD3vzoE
+Next String: oD3tzoE
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: oD3tzoE
+Next String: mD3tzoE
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: mD3tzoE
+Next String: mD3txoE
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: mD3txoE
+Next String: mD3txoA
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: mD3txoA
+Next String: mD2txoA
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: mD2txoA
+Next String: mD24xoA
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: mD24xoA
+Next String: iD24xoA
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: iD24xoA
+Next String: iD34xoA
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: iD34xoA
+Next String: iL34xoA
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: iL34xoA
+Next String: iL36xoA
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: iL36xoA
+Next String: iL37xoA
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: iL37xoA
+Next String: iL37xoa
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: iL37xoa
+Next String: iL36xoa
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: iL36xoa
+Next String: iL36xoq
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: iL36xoq
+Next String: iLs6xoq
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: iLs6xoq
+Next String: iMs6xoq
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: iMs6xoq
+Next String: iMs68oq
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: iMs68oq
+Next String: iMq68oq
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: iMq68oq
+Next String: iMq68gq
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: iMq68gq
+Next String: iIq68gq
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: iIq68gq
+Next String: iMq68gq
+Expected around 32 bit changes, but got 5.
+
+Avalanche effect test failed for:
+Original String: iMq68gq
+Next String: iMqv8gq
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: iMqv8gq
+Next String: iMQv8gq
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: iMQv8gq
+Next String: iMQv8Gq
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: iMQv8Gq
+Next String: iMQv9Gq
+Expected around 32 bit changes, but got 2.
+
+Avalanche effect test failed for:
+Original String: iMQv9Gq
+Next String: iMQ69Gq
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: iMQ69Gq
+Next String: iMQ61Gq
+Expected around 32 bit changes, but got 4.
+
+Avalanche effect test failed for:
+Original String: iMQ61Gq
+Next String: iMQ61Oq
+Expected around 32 bit changes, but got 3.
+
+Avalanche effect test failed for:
+Original String: iMQ61Oq
+Next String: iMQ6qOq
+Expected around 32 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: iMQ6qOq
+Next String: iEQ6qOq
+Expected around 32 bit changes, but got 6.
+
+Avalanche effect test failed for:
+Original String: iEQ6qOq
+Next String: iEQ6qNq
+Expected around 32 bit changes, but got 4.
+
+
+Total Comparisons: 999
+Failed Comparisons: 999
+Pass Rate: 0.0%

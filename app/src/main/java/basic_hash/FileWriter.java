@@ -103,4 +103,18 @@ public class FileWriter {
 
     return Files.readString(file.toPath());
   }
+
+  /**
+   * Get the file name.
+   * 
+   * @return The file name.
+   */
+  public String getFileName() {
+    return file.getName();
+  }
+
+  public String getDirName () {
+    File parentDir = file.getParentFile(); // Get the parent directory
+    return (parentDir != null) ? parentDir.getName() : "No Parent Directory";
+  }
 }

@@ -1,0 +1,348 @@
+Test Report: Hash Uniformity Test
+Date: 2025-03-01
+====================================
+
+Unique Hash Values: 256
+Total Hash Values: 65119
+Average Hashes per Bucket: 254
+Tolerance: 127.0
+Tolerance %: 50.0%
+Upper limit: 381.0
+Lower limit: 127.0
+Buckets Out of Range: 73
+Percentage of Buckets Out of Range: 28,52%
+
+Hash Distribution (buckets and their counts):
+
+Bucket 0: 169 times
+Bucket 1: 164 times
+Bucket 2: 194 times
+Bucket 3: 144 times
+Bucket 4: 387 times
+Bucket 5: 145 times
+Bucket 6: 171 times
+Bucket 7: 122 times
+Bucket 8: 141 times
+Bucket 9: 248 times
+Bucket 10: 150 times
+Bucket 11: 404 times
+Bucket 12: 145 times
+Bucket 13: 5210 times
+Bucket 14: 128 times
+Bucket 15: 134 times
+Bucket 16: 127 times
+Bucket 17: 133 times
+Bucket 18: 429 times
+Bucket 19: 148 times
+Bucket 20: 136 times
+Bucket 21: 176 times
+Bucket 22: 130 times
+Bucket 23: 361 times
+Bucket 24: 142 times
+Bucket 25: 148 times
+Bucket 26: 394 times
+Bucket 27: 171 times
+Bucket 28: 168 times
+Bucket 29: 339 times
+Bucket 30: 153 times
+Bucket 31: 173 times
+Bucket 32: 219 times
+Bucket 33: 137 times
+Bucket 34: 141 times
+Bucket 35: 132 times
+Bucket 36: 410 times
+Bucket 37: 119 times
+Bucket 38: 395 times
+Bucket 39: 648 times
+Bucket 40: 387 times
+Bucket 41: 112 times
+Bucket 42: 396 times
+Bucket 43: 142 times
+Bucket 44: 455 times
+Bucket 45: 381 times
+Bucket 46: 485 times
+Bucket 47: 145 times
+Bucket 48: 173 times
+Bucket 49: 265 times
+Bucket 50: 155 times
+Bucket 51: 186 times
+Bucket 52: 132 times
+Bucket 53: 143 times
+Bucket 54: 123 times
+Bucket 55: 150 times
+Bucket 56: 354 times
+Bucket 57: 148 times
+Bucket 58: 146 times
+Bucket 59: 447 times
+Bucket 60: 139 times
+Bucket 61: 142 times
+Bucket 62: 167 times
+Bucket 63: 231 times
+Bucket 64: 181 times
+Bucket 65: 158 times
+Bucket 66: 399 times
+Bucket 67: 122 times
+Bucket 68: 161 times
+Bucket 69: 118 times
+Bucket 70: 155 times
+Bucket 71: 202 times
+Bucket 72: 433 times
+Bucket 73: 396 times
+Bucket 74: 397 times
+Bucket 75: 177 times
+Bucket 76: 128 times
+Bucket 77: 142 times
+Bucket 78: 148 times
+Bucket 79: 141 times
+Bucket 80: 184 times
+Bucket 81: 151 times
+Bucket 82: 186 times
+Bucket 83: 418 times
+Bucket 84: 180 times
+Bucket 85: 159 times
+Bucket 86: 171 times
+Bucket 87: 387 times
+Bucket 88: 345 times
+Bucket 89: 199 times
+Bucket 90: 401 times
+Bucket 91: 145 times
+Bucket 92: 418 times
+Bucket 93: 415 times
+Bucket 94: 168 times
+Bucket 95: 396 times
+Bucket 96: 128 times
+Bucket 97: 128 times
+Bucket 98: 137 times
+Bucket 99: 139 times
+Bucket 100: 391 times
+Bucket 101: 133 times
+Bucket 102: 408 times
+Bucket 103: 152 times
+Bucket 104: 132 times
+Bucket 105: 422 times
+Bucket 106: 217 times
+Bucket 107: 541 times
+Bucket 108: 400 times
+Bucket 109: 129 times
+Bucket 110: 132 times
+Bucket 111: 391 times
+Bucket 112: 149 times
+Bucket 113: 113 times
+Bucket 114: 330 times
+Bucket 115: 376 times
+Bucket 116: 148 times
+Bucket 117: 157 times
+Bucket 118: 402 times
+Bucket 119: 166 times
+Bucket 120: 218 times
+Bucket 121: 418 times
+Bucket 122: 149 times
+Bucket 123: 144 times
+Bucket 124: 162 times
+Bucket 125: 148 times
+Bucket 126: 188 times
+Bucket 127: 139 times
+Bucket 128: 213 times
+Bucket 129: 145 times
+Bucket 130: 372 times
+Bucket 131: 155 times
+Bucket 132: 347 times
+Bucket 133: 151 times
+Bucket 134: 144 times
+Bucket 135: 405 times
+Bucket 136: 124 times
+Bucket 137: 408 times
+Bucket 138: 151 times
+Bucket 139: 159 times
+Bucket 140: 111 times
+Bucket 141: 465 times
+Bucket 142: 133 times
+Bucket 143: 191 times
+Bucket 144: 166 times
+Bucket 145: 166 times
+Bucket 146: 135 times
+Bucket 147: 131 times
+Bucket 148: 140 times
+Bucket 149: 621 times
+Bucket 150: 561 times
+Bucket 151: 125 times
+Bucket 152: 599 times
+Bucket 153: 555 times
+Bucket 154: 654 times
+Bucket 155: 144 times
+Bucket 156: 259 times
+Bucket 157: 146 times
+Bucket 158: 133 times
+Bucket 159: 126 times
+Bucket 160: 577 times
+Bucket 161: 188 times
+Bucket 162: 818 times
+Bucket 163: 382 times
+Bucket 164: 153 times
+Bucket 165: 219 times
+Bucket 166: 147 times
+Bucket 167: 145 times
+Bucket 168: 192 times
+Bucket 169: 147 times
+Bucket 170: 162 times
+Bucket 171: 178 times
+Bucket 172: 176 times
+Bucket 173: 382 times
+Bucket 174: 161 times
+Bucket 175: 464 times
+Bucket 176: 620 times
+Bucket 177: 152 times
+Bucket 178: 150 times
+Bucket 179: 144 times
+Bucket 180: 169 times
+Bucket 181: 633 times
+Bucket 182: 149 times
+Bucket 183: 384 times
+Bucket 184: 130 times
+Bucket 185: 143 times
+Bucket 186: 316 times
+Bucket 187: 403 times
+Bucket 188: 154 times
+Bucket 189: 147 times
+Bucket 190: 159 times
+Bucket 191: 151 times
+Bucket 192: 152 times
+Bucket 193: 215 times
+Bucket 194: 155 times
+Bucket 195: 157 times
+Bucket 196: 141 times
+Bucket 197: 129 times
+Bucket 198: 424 times
+Bucket 199: 407 times
+Bucket 200: 341 times
+Bucket 201: 166 times
+Bucket 202: 156 times
+Bucket 203: 166 times
+Bucket 204: 142 times
+Bucket 205: 166 times
+Bucket 206: 135 times
+Bucket 207: 151 times
+Bucket 208: 138 times
+Bucket 209: 182 times
+Bucket 210: 154 times
+Bucket 211: 410 times
+Bucket 212: 408 times
+Bucket 213: 148 times
+Bucket 214: 172 times
+Bucket 215: 310 times
+Bucket 216: 154 times
+Bucket 217: 139 times
+Bucket 218: 147 times
+Bucket 219: 161 times
+Bucket 220: 195 times
+Bucket 221: 384 times
+Bucket 222: 127 times
+Bucket 223: 139 times
+Bucket 224: 172 times
+Bucket 225: 162 times
+Bucket 226: 125 times
+Bucket 227: 128 times
+Bucket 228: 152 times
+Bucket 229: 136 times
+Bucket 230: 158 times
+Bucket 231: 140 times
+Bucket 232: 153 times
+Bucket 233: 168 times
+Bucket 234: 142 times
+Bucket 235: 154 times
+Bucket 236: 155 times
+Bucket 237: 106 times
+Bucket 238: 141 times
+Bucket 239: 421 times
+Bucket 240: 585 times
+Bucket 241: 195 times
+Bucket 242: 426 times
+Bucket 243: 134 times
+Bucket 244: 144 times
+Bucket 245: 168 times
+Bucket 246: 481 times
+Bucket 247: 623 times
+Bucket 248: 379 times
+Bucket 249: 279 times
+Bucket 250: 323 times
+Bucket 251: 118 times
+Bucket 252: 151 times
+Bucket 253: 424 times
+Bucket 254: 147 times
+Bucket 255: 171 times
+
+Buckets outside tolerance range:
+
+Bucket 4 with count 387 is out of range
+Bucket 7 with count 122 is out of range
+Bucket 11 with count 404 is out of range
+Bucket 13 with count 5210 is out of range
+Bucket 18 with count 429 is out of range
+Bucket 26 with count 394 is out of range
+Bucket 36 with count 410 is out of range
+Bucket 37 with count 119 is out of range
+Bucket 38 with count 395 is out of range
+Bucket 39 with count 648 is out of range
+Bucket 40 with count 387 is out of range
+Bucket 41 with count 112 is out of range
+Bucket 42 with count 396 is out of range
+Bucket 44 with count 455 is out of range
+Bucket 46 with count 485 is out of range
+Bucket 54 with count 123 is out of range
+Bucket 59 with count 447 is out of range
+Bucket 66 with count 399 is out of range
+Bucket 67 with count 122 is out of range
+Bucket 69 with count 118 is out of range
+Bucket 72 with count 433 is out of range
+Bucket 73 with count 396 is out of range
+Bucket 74 with count 397 is out of range
+Bucket 83 with count 418 is out of range
+Bucket 87 with count 387 is out of range
+Bucket 90 with count 401 is out of range
+Bucket 92 with count 418 is out of range
+Bucket 93 with count 415 is out of range
+Bucket 95 with count 396 is out of range
+Bucket 100 with count 391 is out of range
+Bucket 102 with count 408 is out of range
+Bucket 105 with count 422 is out of range
+Bucket 107 with count 541 is out of range
+Bucket 108 with count 400 is out of range
+Bucket 111 with count 391 is out of range
+Bucket 113 with count 113 is out of range
+Bucket 118 with count 402 is out of range
+Bucket 121 with count 418 is out of range
+Bucket 135 with count 405 is out of range
+Bucket 136 with count 124 is out of range
+Bucket 137 with count 408 is out of range
+Bucket 140 with count 111 is out of range
+Bucket 141 with count 465 is out of range
+Bucket 149 with count 621 is out of range
+Bucket 150 with count 561 is out of range
+Bucket 151 with count 125 is out of range
+Bucket 152 with count 599 is out of range
+Bucket 153 with count 555 is out of range
+Bucket 154 with count 654 is out of range
+Bucket 159 with count 126 is out of range
+Bucket 160 with count 577 is out of range
+Bucket 162 with count 818 is out of range
+Bucket 163 with count 382 is out of range
+Bucket 173 with count 382 is out of range
+Bucket 175 with count 464 is out of range
+Bucket 176 with count 620 is out of range
+Bucket 181 with count 633 is out of range
+Bucket 183 with count 384 is out of range
+Bucket 187 with count 403 is out of range
+Bucket 198 with count 424 is out of range
+Bucket 199 with count 407 is out of range
+Bucket 211 with count 410 is out of range
+Bucket 212 with count 408 is out of range
+Bucket 221 with count 384 is out of range
+Bucket 226 with count 125 is out of range
+Bucket 237 with count 106 is out of range
+Bucket 239 with count 421 is out of range
+Bucket 240 with count 585 is out of range
+Bucket 242 with count 426 is out of range
+Bucket 246 with count 481 is out of range
+Bucket 247 with count 623 is out of range
+Bucket 251 with count 118 is out of range
+Bucket 253 with count 424 is out of range

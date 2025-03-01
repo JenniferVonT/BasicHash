@@ -38,15 +38,16 @@ public class App {
      */
     private void processFile () {
       try {
+        // Get the plain text from the saved file.
         String plainText = file.read();
-        String hashedString = hasher.hash(plainText);
+        int hashValue = hasher.hash(plainText);
 
+        // Create and write the hash value in a separate file.
         FileWriter hashFile = new FileWriter("hash.txt");
-        
-        hashFile.write(hashedString);
+        hashFile.write(Integer.toString(hashValue));
     
         ui.clearConsole();
-        ui.showMessage("The file was hashed and stored in hash.txt in the textFiles folder");
+        ui.showMessage("The file was hashed and stored in " + file.getFileName() + " in the " + file.getDirName() + " folder");
       } catch (IOException error) {
         ui.clearConsole();
         ui.showError(error.getMessage());

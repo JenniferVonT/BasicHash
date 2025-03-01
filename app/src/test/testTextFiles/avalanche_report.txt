@@ -1,0 +1,1092 @@
+Test Report: Hash Avalanche Test
+Date: 2025-03-01
+====================================
+
+Total Comparisons: 999
+Failed Comparisons: 154
+Tolerance: 2.0
+Tolerance %: 50.0%
+Pass Rate: 84.58458458458459%
+
+
+
+Data sets: 
+
+Avalanche effect test failed for:
+Original String: EJiBefg
+Original Hash: 71
+Next String: EKiBefg
+Next Hash: 184
+Expected around 4 bit changes, but got 8.
+
+Avalanche effect test failed for:
+Original String: EKiCefg
+Original Hash: 187
+Next String: EKiCgfg
+Next Hash: 185
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: VKCCewG
+Original Hash: 231
+Next String: VKCCewO
+Next Hash: 239
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: VKBCdgO
+Original Hash: 19
+Next String: VJBCdgO
+Next Hash: 236
+Expected around 4 bit changes, but got 8.
+
+Avalanche effect test failed for:
+Original String: VJBClgO
+Original Hash: 212
+Next String: VJBCloO
+Next Hash: 220
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: VJBCloO
+Original Hash: 220
+Next String: RJBCloO
+Next Hash: 43
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: RJBCloO
+Original Hash: 43
+Next String: RJBCloK
+Next Hash: 47
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: RJBCloK
+Original Hash: 47
+Next String: VJBCloK
+Next Hash: 216
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: VdgchoJ
+Original Hash: 232
+Next String: VdgkhoJ
+Next Hash: 224
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: VdgKhoJ
+Original Hash: 195
+Next String: VdgKhoK
+Next Hash: 194
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: VdgKhoK
+Original Hash: 194
+Next String: VdgChoK
+Next Hash: 202
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: VdgCioK
+Original Hash: 73
+Next String: VdgCioC
+Next Hash: 65
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: RdGRkOw
+Original Hash: 77
+Next String: RdGrkOw
+Next Hash: 109
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: RdGrkOw
+Original Hash: 109
+Next String: RdGriOw
+Next Hash: 111
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: RdGriOw
+Original Hash: 111
+Next String: RdGRiOw
+Next Hash: 79
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: BdGPiOw
+Original Hash: 186
+Next String: BfGPiOw
+Next Hash: 69
+Expected around 4 bit changes, but got 8.
+
+Avalanche effect test failed for:
+Original String: BfGPiOw
+Original Hash: 69
+Next String: BfGPiOv
+Next Hash: 68
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: FfcTin4
+Original Hash: 102
+Next String: FfcTin5
+Next Hash: 103
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: Tgb2li3
+Original Hash: 239
+Next String: Tgb2li7
+Next Hash: 235
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: Tgb2lk7
+Original Hash: 169
+Next String: Tgb2lk3
+Next Hash: 173
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: Tqj2hn2
+Original Hash: 211
+Next String: Tqj2hn0
+Next Hash: 209
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: Tqj2hn0
+Original Hash: 209
+Next String: Tqb2hn0
+Next Hash: 213
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: XqFthf1
+Original Hash: 226
+Next String: XqFthv1
+Next Hash: 242
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: IqFphvy
+Original Hash: 136
+Next String: IqFphvi
+Next Hash: 152
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: IqFvhth
+Original Hash: 159
+Next String: HqFvhth
+Next Hash: 151
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: jqFvh4h
+Original Hash: 106
+Next String: jqFvh5h
+Next Hash: 149
+Expected around 4 bit changes, but got 8.
+
+Avalanche effect test failed for:
+Original String: jsF6a3h
+Original Hash: 114
+Next String: jsF6A3h
+Next Hash: 82
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: jsB2A3h
+Original Hash: 211
+Next String: jsB2A3H
+Next Hash: 243
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: jsR0A3H
+Original Hash: 166
+Next String: ksR0A3H
+Next Hash: 25
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: nsV9M3X
+Original Hash: 152
+Next String: nsV9M3H
+Next Hash: 136
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: c7G9O6H
+Original Hash: 133
+Next String: c7G9O6X
+Next Hash: 149
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: c7G9O6X
+Original Hash: 149
+Next String: c7G9O6P
+Next Hash: 157
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: cwG8O6T
+Original Hash: 132
+Next String: cwG8O6t
+Next Hash: 164
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: bSOwr4f
+Original Hash: 254
+Next String: bSOwr4n
+Next Hash: 246
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: bSOwr5n
+Original Hash: 213
+Next String: bSOvr5n
+Next Hash: 42
+Expected around 4 bit changes, but got 8.
+
+Avalanche effect test failed for:
+Original String: bSO6j7n
+Original Hash: 49
+Next String: bSO6j7f
+Next Hash: 57
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: bSG5k5f
+Original Hash: 187
+Next String: bSG5k5F
+Next Hash: 155
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: jSG5k5F
+Original Hash: 205
+Next String: jSG5k5f
+Next Hash: 237
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: jWG5k5f
+Original Hash: 247
+Next String: jWg5k5f
+Next Hash: 0
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: zWg5k5f
+Original Hash: 222
+Next String: zWg5o5f
+Next Hash: 218
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: zWg5o5f
+Original Hash: 218
+Next String: zWg5ouf
+Next Hash: 154
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: zWg5oud
+Original Hash: 156
+Next String: zWg5o5d
+Next Hash: 220
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: zWg5O5d
+Original Hash: 60
+Next String: zWg5O5t
+Next Hash: 44
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: Zwg5O5t
+Original Hash: 87
+Next String: Zwg5O5p
+Next Hash: 83
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: Jwg5N5r
+Original Hash: 189
+Next String: Jwg5N5b
+Next Hash: 173
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: DWc9F5c
+Original Hash: 206
+Next String: DWc9F5k
+Next Hash: 198
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: DWc9F5k
+Original Hash: 198
+Next String: DWc9Fuk
+Next Hash: 134
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: VWs1Vek
+Original Hash: 196
+Next String: VWsqVek
+Next Hash: 123
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: VWsqVek
+Original Hash: 123
+Next String: VWsqRek
+Next Hash: 127
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: vWsaQek
+Original Hash: 248
+Next String: vWsaqek
+Next Hash: 216
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: vWsarek
+Original Hash: 213
+Next String: vWrarek
+Next Hash: 34
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: vWvErcb
+Original Hash: 126
+Next String: vWvErsb
+Next Hash: 110
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: fWsDrub
+Original Hash: 254
+Next String: fWsDrUb
+Next Hash: 222
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: tUqDvwb
+Original Hash: 212
+Next String: tTqDvwb
+Next Hash: 107
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: tTqDvwb
+Original Hash: 107
+Next String: tUqDvwb
+Next Hash: 212
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: tuad3vr
+Original Hash: 165
+Next String: tuad3vp
+Next Hash: 167
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: t5af3vq
+Original Hash: 218
+Next String: t5av3vq
+Next Hash: 202
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: t5av3vq
+Original Hash: 202
+Next String: t5aV3vq
+Next Hash: 234
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: rusQ3rA
+Original Hash: 254
+Next String: rusQ32A
+Next Hash: 190
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: ruwQ32A
+Original Hash: 164
+Next String: ru7Q32A
+Next Hash: 166
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: r56K53K
+Original Hash: 37
+Next String: r56K13K
+Next Hash: 33
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: b56K13K
+Original Hash: 57
+Next String: b56k13K
+Next Hash: 25
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: fs5i67I
+Original Hash: 102
+Next String: fs5I67I
+Next Hash: 70
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: fc1I6wL
+Original Hash: 45
+Next String: fc1IvwL
+Next Hash: 109
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: ta1IvuL
+Original Hash: 178
+Next String: ta1IwuL
+Next Hash: 179
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: ta1IwuL
+Original Hash: 179
+Next String: ta1IwuD
+Next Hash: 187
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: ta1IuuD
+Original Hash: 221
+Next String: ta1I5uD
+Next Hash: 157
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: ta1I5uD
+Original Hash: 157
+Next String: ta1I4uD
+Next Hash: 156
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: te1I8uL
+Original Hash: 74
+Next String: te1IxuL
+Next Hash: 10
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: vE1IzuL
+Original Hash: 128
+Next String: vE1IxuL
+Next Hash: 126
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: vE1IxuL
+Original Hash: 126
+Next String: vEqIxuL
+Next Hash: 126
+Expected around 4 bit changes, but got 0.
+
+Avalanche effect test failed for:
+Original String: vEqIxuL
+Original Hash: 126
+Next String: vEqIyuL
+Next Hash: 127
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: vEqIyuL
+Original Hash: 127
+Next String: vEqI9uL
+Next Hash: 63
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: vEqI9uL
+Original Hash: 63
+Next String: vEqIyuL
+Next Hash: 127
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: veuIyuL
+Original Hash: 208
+Next String: veuIyuN
+Next Hash: 210
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: veuIyqN
+Original Hash: 78
+Next String: veuiyqN
+Next Hash: 110
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: vnalxul
+Original Hash: 177
+Next String: rnalxul
+Next Hash: 241
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: rOKd85h
+Original Hash: 251
+Next String: rOKdx5h
+Next Hash: 187
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: WoKdp9h
+Original Hash: 114
+Next String: WoKdp9l
+Next Hash: 118
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: WkCdp8d
+Original Hash: 107
+Next String: WkCdp8D
+Next Hash: 75
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: WkFep8F
+Original Hash: 42
+Next String: WkFepxF
+Next Hash: 106
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: WkbepxF
+Original Hash: 22
+Next String: GkbepxF
+Next Hash: 54
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: WKBdRjk
+Original Hash: 39
+Next String: WKBdRjj
+Next Hash: 38
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: uAGiRjJ
+Original Hash: 84
+Next String: uAGirjJ
+Next Hash: 116
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: uACIrkJ
+Original Hash: 57
+Next String: uICIrkJ
+Next Hash: 199
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: dhKCtiZ
+Original Hash: 251
+Next String: dhKCtiJ
+Next Hash: 235
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dhKCtiJ
+Original Hash: 235
+Next String: dhKCtiH
+Next Hash: 233
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dhKCtiH
+Original Hash: 233
+Next String: dhKCtiL
+Next Hash: 237
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dhCSuhL
+Original Hash: 185
+Next String: dhCSuhl
+Next Hash: 153
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: DySPsjl
+Original Hash: 23
+Next String: DySPsjn
+Next Hash: 21
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: LYSPsln
+Original Hash: 72
+Next String: MYSPsln
+Next Hash: 191
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: MICRsnn
+Original Hash: 217
+Next String: MICRwnn
+Next Hash: 221
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: IIcRwgn
+Original Hash: 233
+Next String: IIcSwgn
+Next Hash: 18
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: IIcS7gn
+Original Hash: 210
+Next String: IIcS7gf
+Next Hash: 218
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: IIcS7gf
+Original Hash: 218
+Next String: IIcS7Gf
+Next Hash: 250
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: iXbS1Gf
+Original Hash: 253
+Next String: iXbS1Wf
+Next Hash: 237
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: iYbS1Qf
+Original Hash: 70
+Next String: iYbS1Qv
+Next Hash: 86
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kYrS9Qv
+Original Hash: 19
+Next String: kYrC9Qv
+Next Hash: 3
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kYvC1Uv
+Original Hash: 21
+Next String: kYvC1U6
+Next Hash: 85
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kx3f8u3
+Original Hash: 158
+Next String: kx3f8us
+Next Hash: 222
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kx3b8qs
+Original Hash: 214
+Next String: kx3b8qw
+Next Hash: 210
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kXsb8uw
+Original Hash: 139
+Next String: kXsb8u7
+Next Hash: 203
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kXsb8u7
+Original Hash: 203
+Next String: kXsb8uw
+Next Hash: 139
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kXrr0tg
+Original Hash: 175
+Next String: kXrr0to
+Next Hash: 167
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: kXrr0to
+Original Hash: 167
+Next String: kXrr0tk
+Next Hash: 163
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: oxxR0pk
+Original Hash: 235
+Next String: oxxR0xk
+Next Hash: 227
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: mrxR1xg
+Original Hash: 68
+Next String: mrxR18g
+Next Hash: 4
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: gZsR28g
+Original Hash: 124
+Next String: gZsR28c
+Next Hash: 120
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: mrwR2xs
+Original Hash: 46
+Next String: mrwR2xc
+Next Hash: 62
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: mrwR2xc
+Original Hash: 62
+Next String: mrwR2xg
+Next Hash: 58
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: lfwR2xg
+Original Hash: 57
+Next String: lfwRrxg
+Next Hash: 121
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dvWZr8c
+Original Hash: 72
+Next String: dvWZb8c
+Next Hash: 88
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: evWZb8c
+Original Hash: 206
+Next String: evSZb8c
+Next Hash: 48
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: dvSZb8c
+Original Hash: 82
+Next String: dvSJb8c
+Next Hash: 66
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dvSJbxk
+Original Hash: 154
+Next String: dvSJbxo
+Next Hash: 158
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dvSKbxg
+Original Hash: 229
+Next String: dvSKb8g
+Next Hash: 165
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dvSKb8g
+Original Hash: 165
+Next String: dvSKB8g
+Next Hash: 133
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: mbSCSxg
+Original Hash: 29
+Next String: mbSCSxo
+Next Hash: 21
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: ObocWxo
+Original Hash: 235
+Next String: ObocWxg
+Next Hash: 227
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: OjocVxe
+Original Hash: 221
+Next String: OjocVxm
+Next Hash: 213
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: OjocVxm
+Original Hash: 213
+Next String: OjocVxi
+Next Hash: 209
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: GiOGGjm
+Original Hash: 125
+Next String: GiOGGjo
+Next Hash: 127
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: GgMEGjg
+Original Hash: 115
+Next String: GgMEGJg
+Next Hash: 83
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: gFIqGIg
+Original Hash: 80
+Next String: gFIqGIc
+Next Hash: 84
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: FBIqGAg
+Original Hash: 39
+Next String: FBIqGAG
+Next Hash: 7
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: CBiqNVF
+Original Hash: 30
+Next String: CBiqNVD
+Next Hash: 28
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: CBipNVD
+Original Hash: 123
+Next String: CBipNVd
+Next Hash: 91
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: CBipnRd
+Original Hash: 167
+Next String: CBipnSd
+Next Hash: 88
+Expected around 4 bit changes, but got 8.
+
+Avalanche effect test failed for:
+Original String: CBipnSd
+Original Hash: 88
+Next String: CBiPnSd
+Next Hash: 183
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: CBiPnSd
+Original Hash: 183
+Next String: CBiPnSl
+Next Hash: 191
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: CBIPnWl
+Original Hash: 229
+Next String: CBIPnWn
+Next Hash: 231
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: CBIPnWn
+Original Hash: 231
+Next String: CBIPnWl
+Next Hash: 229
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: CBMPlVl
+Original Hash: 230
+Next String: CBOPlVl
+Next Hash: 228
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: CBoPlVl
+Original Hash: 181
+Next String: CBoPlVd
+Next Hash: 189
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: KOrQnpd
+Original Hash: 180
+Next String: KGrQnpd
+Next Hash: 176
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: OGzYLbh
+Original Hash: 252
+Next String: OGzYLBh
+Next Hash: 220
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: OWrILBh
+Original Hash: 34
+Next String: OWrIMBh
+Next Hash: 253
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: Ds2ILLM
+Original Hash: 116
+Next String: Ds2ILLE
+Next Hash: 124
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dG0YlNE
+Original Hash: 130
+Next String: dGpYlNE
+Next Hash: 134
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: dTpYxLE
+Original Hash: 182
+Next String: dTpYxLU
+Next Hash: 166
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: oT0ypmD
+Original Hash: 83
+Next String: gT0ypmD
+Next Hash: 236
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: gT0xpmD
+Original Hash: 21
+Next String: gT0xPmD
+Next Hash: 53
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: gt3xPmD
+Original Hash: 58
+Next String: gt3xPmL
+Next Hash: 50
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: gt1pPmL
+Original Hash: 79
+Next String: gt1pXmL
+Next Hash: 71
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: gt30XlD
+Original Hash: 168
+Next String: gt30XlF
+Next Hash: 170
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: nt3pXlG
+Original Hash: 205
+Next String: nd3pXlG
+Next Hash: 51
+Expected around 4 bit changes, but got 7.
+
+Avalanche effect test failed for:
+Original String: nD3tZlG
+Original Hash: 227
+Next String: nD3tZlC
+Next Hash: 231
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: nD3tZlC
+Original Hash: 231
+Next String: nD3tZlA
+Next Hash: 229
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: oD3vzoA
+Original Hash: 122
+Next String: oD3vzoE
+Next Hash: 126
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: iL36xoq
+Original Hash: 126
+Next String: iLs6xoq
+Next Hash: 124
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: iMs6xoq
+Original Hash: 175
+Next String: iMs68oq
+Next Hash: 239
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: iMq68oq
+Original Hash: 112
+Next String: iMq68gq
+Next Hash: 120
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: iMQv8gq
+Original Hash: 53
+Next String: iMQv8Gq
+Next Hash: 21
+Expected around 4 bit changes, but got 1.
+
+Avalanche effect test failed for:
+Original String: iMQ61Oq
+Original Hash: 219
+Next String: iMQ6qOq
+Next Hash: 155
+Expected around 4 bit changes, but got 1.
+
